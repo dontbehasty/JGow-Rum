@@ -20,6 +20,14 @@
                 android:orientation="vertical">
 
                 <Button
+                    android:id="@+id/aboutButton"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="About J.Gow Rum" />
+
+                <Button
                     android:id="@+id/cocktailButton"
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"

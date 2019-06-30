@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button aboutButton;
     Button cocktailButton;
     Button websiteButton;
     Button emailButton;
@@ -19,10 +20,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        aboutButton = (Button) findViewById(R.id.aboutButton);
         cocktailButton = (Button) findViewById(R.id.cocktailButton);
         websiteButton = (Button) findViewById(R.id.websiteButton);
         emailButton = (Button) findViewById(R.id.emailButton);
         callButton = (Button) findViewById(R.id.callButton);
+
+        //About Button
+        aboutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToTheOtherActivity = new Intent(getApplicationContext(), AboutActivity.class);
+                startActivity(goToTheOtherActivity);
+            }
+        });
 
         //Cocktail List Button
         cocktailButton.setOnClickListener(new View.OnClickListener() {
