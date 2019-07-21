@@ -8,11 +8,11 @@ About J.Gow Rum Button:
 Uses the goToTheOtherActivity Intent to open a new tabbed activity.
 On this tabbed activity there is 3 tabs. For each of the tabs a different fragment will be displayed.
 
-<p style="float: left>
-<img src="/Screenshots/image4.png" height="300"/> 
+<p style="float:left>
+<img src="/Screenshots/image4.png" height="300"/>
 <img src="/Screenshots/image6.png" height="300"/>
 <img src="/Screenshots/image5.png" height="300"/>
-</p>                                              
+</p>
 
 Cocktail List Button:
 Uses the goToTheOtherActivity Intent to open a new activity.
