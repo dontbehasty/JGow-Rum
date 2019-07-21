@@ -2,7 +2,7 @@
 
 This app has 5 button on the main screen.
 
-❮img src="Screenshots/image1.png" width="152"❯
+<img src="/Screenshots/image1.png" width="200"/>
 
 About J.Gow Rum Button:
 Uses the goToTheOtherActivity Intent to open a new tabbed activity.
