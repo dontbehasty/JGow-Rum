@@ -37,14 +37,49 @@ This information comes from several different arrays.
 <br>
 Uses launchBrowser and ACTION_VIEW to open the web browser and go to the J.Gow Rum website.
 
+```java
+websiteButton.setOnClickListener(new View.OnClickListener() {
+       @Override
+       public void onClick(View v) {
+           Uri jgWeburl = Uri.parse("https://jgowrum.com/");
+           Intent launchBrowser = new Intent(Intent.ACTION_VIEW, jgWeburl);
+           startActivity(launchBrowser);
+       }
+});
+```
+
 ---
 
 <b><u>Email Button</b></u>
 <br>
 Uses emailIntent ACTION_SEND to open the email app and also uses EXTRA_EMAIL and EXTRA_SUBJECT to fill in the J.Gow Rum email address and the email subject.
 
+```java
+emailButton.setOnClickListener(new View.OnClickListener() {
+     @Override
+     public void onClick(View v) {
+         Intent emailIntent = new Intent(Intent.ACTION_SEND);
+         emailIntent.setType("plain/text");
+         emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] {"info@vsdistillersltd.com"});
+         emailIntent.putExtra(Intent.EXTRA_SUBJECT, "J.Gow Rum Query");
+         startActivity(emailIntent);
+     }
+});
+```
+
 ---
 
 <b><u>Call Button</b></u>
 <br>
 Uses callIntent and ACTION_DIAL to display the phone dialer with the phone number filled in.
+
+```java
+callButton.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+       Uri jgPhoneNumber = Uri.parse("tel:01856781714");
+       Intent callIntent = new Intent(Intent.ACTION_DIAL, jgPhoneNumber);
+       startActivity(callIntent);
+    }
+});
+```
