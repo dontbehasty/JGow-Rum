@@ -1,12 +1,12 @@
 # JGow-Rum
 
-<b><u>Main Home Screen</b></u>
+<h2>Main Home Screen</h2>
 
 <img src="/Screenshots/image1.png" width="200"/>
 
 ---
 
-<b><u>About J.Gow Rum Button</b></u>
+<h2>About Button</h2>
 <br>
 Uses the goToTheOtherActivity Intent to open a new tabbed activity.
 On this tabbed activity there is 3 tabs. For each of the tabs a different fragment will be displayed.
@@ -19,7 +19,7 @@ On this tabbed activity there is 3 tabs. For each of the tabs a different fragme
 
 ---
 
-<b><u>Cocktail List Button</b></u>
+<h2>Cocktail List Button</h2>
 <br>
 Uses the goToTheOtherActivity Intent to open a new activity.
 On this activity there is a ListView which displays a list of cocktails.
@@ -33,7 +33,7 @@ This information comes from several different arrays.
 
 ---
 
-<b><u>Visit Website Button</b></u>
+<h2>Visit Website Button</h2>
 <br>
 Uses launchBrowser and ACTION_VIEW to open the web browser and go to the J.Gow Rum website.
 
@@ -50,7 +50,7 @@ websiteButton.setOnClickListener(new View.OnClickListener() {
 
 ---
 
-<b><u>Email Button</b></u>
+<h2>Email Button</h2>
 <br>
 Uses emailIntent ACTION_SEND to open the email app and also uses EXTRA_EMAIL and EXTRA_SUBJECT to fill in the J.Gow Rum email address and the email subject.
 
@@ -69,7 +69,7 @@ emailButton.setOnClickListener(new View.OnClickListener() {
 
 ---
 
-<b><u>Call Button</b></u>
+<h2>Call Button</h2>
 <br>
 Uses callIntent and ACTION_DIAL to display the phone dialer with the phone number filled in.
 
