@@ -2,10 +2,7 @@
 
 <h2>Main Home Screen</h2>
 
-<div>
-  <img src="/Screenshots/image1.png" height="400"/>
-  <img src="/Screenshots/J Gow Rum App - Demo.gif" height="400"/>
-</div>
+<img src="/Screenshots/image1.png" width="200"/>
 
 ---
 
@@ -86,3 +83,9 @@ callButton.setOnClickListener(new View.OnClickListener() {
     }
 });
 ```
+
+---
+
+<h2>Demo</h2>
+
+<img src="/Screenshots/J Gow Rum App - Demo.gif" height="500"/>
