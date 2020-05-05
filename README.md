@@ -2,8 +2,10 @@
 
 <h2>Main Home Screen</h2>
 
-<img src="/Screenshots/image1.png" height="400"/>
-<img src="/Screenshots/J Gow Rum App - Demo.gif" height="400"/>
+<div>
+  <img src="/Screenshots/image1.png" height="400"/>
+  <img src="/Screenshots/J Gow Rum App - Demo.gif" height="400"/>
+</div>
 
 ---
 
